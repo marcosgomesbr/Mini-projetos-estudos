@@ -9,7 +9,7 @@ public class E10 {
 		System.out.println("Celsius ----> Fahrenheit");
 		System.out.println("Valor em Celsius: ");
 	    celsius = l.nextDouble();
-	    fare = (celsius+32)/1.8;
+	    fare = (celsius*1.8)+32;
 	    
 	    System.out.printf("Temperatura em celsius: %.3f",fare);
 	    
